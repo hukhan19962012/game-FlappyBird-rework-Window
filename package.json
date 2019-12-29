@@ -1,0 +1,19 @@
+{
+  "name": "MyFBGame",
+  "version": "1.0.0",
+  "description": ":)))",
+  "main": "main.js",
+  "dependencies": {
+    "electron-packager": "^14.1.1",
+    "pretty-bytes": "^2.0.1"
+  },
+  "devDependencies": {
+    "electron": "^3.0.0"
+  },
+  "scripts": {
+    "start": "electron main.js",
+    "build": "electron-packager . --overwrite --asar=true --platform=win32 --arch=x64 --prune=true --out=release-builds"
+  },
+  "author": "LTC",
+  "license": "ISC"
+}
